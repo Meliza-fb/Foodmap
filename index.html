@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>FoodMap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <header><!--Título-->
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Foodmap</h1>
+            <hr>
+          </div>
+        </div>
+      </header>
+
+      <div style="color:orange, background-color:gray;" id="splash"> <!--splash-->
+        <div class="row">
+          <div class="col-xs-12">
+            <center> <img src="assets/img/splash.gif" alt="" style="width:200px; height:200px;"> </center>
+          </div>
+        </div>
+      </div>
+
+        <section id="Map"> <!--maapa fijo-->
+          <div class="row">
+          <div class="col-xs-12">
+            <p></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d106569.86874032911!2d-70.76112517913091!3d-33.41520320393005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurants+cerca+de+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1513222559554" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+             <hr>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!--Data y filtro-->
+      <div class="toggler1" style="color:orange;"> <!--filtro Chilena-->
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="effect1" class="ui-widget-content ui-corner-all1">
+              <span class="ui-widget-header ui-corner-all1"><iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d53270.06579024875!2d-70.65881658839182!3d-33.439428162980114!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante+de+comida+chilena!5e0!3m2!1ses-419!2scl!4v1513229454412" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></span>
+              <h3>Recomendación: <br>
+                <a href="http://elhoyo.cl/">El Hoyo</a>
+              </h3>
+              <span><img src="assets/img/1_1.jpg" alt=""> <img src="assets/img/1.jpg" alt=""> <img src="assets/img/2_1.jpg" alt=""></span>
+              <hr>
+            </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="toggler2" style="color:orange;"><!--filtro Peruana-->
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="effect2" class="ui-widget-content ui-corner-all2">
+              <span class="ui-widget-header ui-corner-all2"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d53270.15978322379!2d-70.65881663239954!3d-33.439275071588995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante+de+comida+peruana!5e0!3m2!1ses-419!2scl!4v1513231919755" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></span>
+              <h3>Recomendación: <br>
+                <a href="http://www.elchalan.cl/?gclid=CjwKCAiAvMPRBRBIEiwABuO6qcdWzBL_av-MzcwRyEz62eAwBrf3i7svVNX__FXrabw1EYGxLwYr8BoCUYAQAvD_BwE">El Chalán</a>
+              </h3>
+              <span><img src="assets/img/2_2.jpg" alt=""> <img src="assets/img/2.jpg" alt=""> <img src="assets/img/1_2.jpg" alt=""></span>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="toggler3" style="color:orange;"> <!--filtro Italiana-->
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="effect3" class="ui-widget-content ui-corner-all3">
+              <span class="ui-widget-header ui-corner-all3"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d106540.33165234965!2d-70.69383560401566!3d-33.43926522909002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante+de+comida+italiana!5e0!3m2!1ses-419!2scl!4v1513232621934" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></span>
+              <h3>Recomendación: <br>
+                <a href="http://www.lapiccolaitalia.cl/">La Piccola Italia</a>
+              </h3>
+              <span><img src="assets/img/2_3.jpg" alt=""> <img src="assets/img/3.jpg" alt=""> <img src="assets/img/1_3.jpg" alt=""></span>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="toggler4" style="color:orange;"> <!--filtro China-->
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="effect4" class="ui-widget-content ui-corner-all4">
+              <span class="ui-widget-header ui-corner-all4"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d106529.47370050156!2d-70.73606451051343!3d-33.44810668005124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante+de+comida+china!5e0!3m2!1ses-419!2scl!4v1513233255113" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe> </span>
+              <h3>Recomendación: <br>
+                <a href="http://www.lungfung.cl/historia.html">Lung Fung</a>
+              </h3>
+              <span><img src="assets/img/2_4.jpg" alt=""> <img src="assets/img/4.jpg" alt=""> <img src="assets/img/1_4.jpg" alt=""></span>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="toggler5" style="color:orange;"> <!--filtro vegana-->
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="effect5" class="ui-widget-content ui-corner-all5">
+              <span class="ui-widget-header ui-corner-all5"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d53269.8623831217!2d-70.65589885477425!3d-33.43975946093796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante+de+comida+vegana!5e0!3m2!1ses-419!2scl!4v1513233768360" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe> </span>
+              <h3>Recomendación: <br>
+                <a href="http://www.elarbolrestaurant.cl/">El Árbol</a>
+              </h3>
+              <span><img src="assets/img/2_5.jpg" alt=""> <img src="assets/img/5.jpg" alt=""> <img src="assets/img/1_5.jpg" alt=""></span>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Selección-->
+      <select name="effects" id="effectTypes">
+        <option value="blind">Chilena</option>
+        <option value="bounce">Peruana</option>
+        <option value="clip">Italiana</option>
+        <option value="drop">China</option>
+        <option value="explode">vegana</option>
+      </select>
+      <button id="button" class="ui-state-default ui-corner-all">ir!</button>
+
+    </div>
+
+
+    <!--script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/app.js" charset="utf-8"></script>
+
+
+<!--    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+  </body>
+</html>
